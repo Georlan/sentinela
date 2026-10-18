@@ -1,0 +1,38 @@
+# Android/Gradle
+.gradle/
+**/build/
+local.properties
+**/local.properties
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.ap_
+*.hprof
+*.log
+
+# Chaves e configuracoes locais
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+!*.example
+google-services.json
+service-account*.json
+*credentials*.json
+
+# Dados sensiveis
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.gpx
+*.geojson
+*.kml
+*.logcat
